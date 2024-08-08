@@ -1,14 +1,17 @@
-# Ink [![Build Status](https://travis-ci.org/simplifycom/ink-android.svg?branch=master)](https://travis-ci.org/simplifycom/ink-android)
+# Ink [![](https://jitpack.io/v/nak5ive/ink-android.svg)](https://jitpack.io/#nak5ive/ink-android)
 
 A light-weight, customizable view for capturing a signature or drawing in an Android app.
 
 ![screenshot](./screenshot.png)
 
-## Import the Dependency [ ![Download](https://api.bintray.com/packages/simplify/Android/simplify-ink-android/images/download.svg) ](https://bintray.com/simplify/Android/simplify-ink-android/_latestVersion)
-
-To import the Android SDK, include it as a dependency in your build.gradle file
+## Import the Dependency
+Include the JitPack repository in your project's build.gradle file
 ```groovy
-compile 'com.simplify:ink:X.X.X'
+maven { url 'https://jitpack.io' }
+```
+Import the library dependency
+```groovy
+implementation 'com.github.nak5ive:ink-android:X.X.X'
 ```
 
 ## Usage
